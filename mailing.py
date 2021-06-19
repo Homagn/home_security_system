@@ -14,7 +14,7 @@ def send_warning():
     '''
     #The mail addresses and password
     sender_address = 'robomansaha@gmail.com'
-    sender_pass = 'milkyboob@juicypussy'
+    sender_pass = 'xx' #password here
     receiver_address = 'homagnisaha@gmail.com'
     #Setup the MIME
     message = MIMEMultipart()
