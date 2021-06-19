@@ -13,3 +13,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
+
+Finally create a dummy gmail sender account and
+for that account remember to enable less secure apps to access gmail
+https://hotter.io/docs/email-accounts/secure-app-gmail/
