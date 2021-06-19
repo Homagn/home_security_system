@@ -1,0 +1,15 @@
+tested with python 3.7
+opencv - pip install opencv-python
+opencv-contrib - pip install opencv-contrib-python
+
+numpy - tested with 1.15
+
+
+(For automated mailing)
+these libraries seem to be present out of box in ubuntu 16.04 with anaconda installed
+
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email import encoders
