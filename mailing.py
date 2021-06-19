@@ -20,7 +20,7 @@ def send_warning():
     message = MIMEMultipart()
     message['From'] = sender_address
     message['To'] = receiver_address
-    message['Subject'] = 'Someone has entered #2307 - see picture attached.'
+    message['Subject'] = 'Someone has entered - see picture attached.'
     # attache a MIMEText object to save email content
     msg = message
     msg_content = MIMEText('send with attachment...', 'plain', 'utf-8')
